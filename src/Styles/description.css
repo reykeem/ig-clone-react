@@ -1,0 +1,32 @@
+.description {
+  background: #f3f3f3;
+  border-left: 1px solid#bbbcbb;
+  border-right: 1px solid#bbbcbb;
+  border-bottom: 1px solid#bbbcbb;
+  display: flex;
+  padding: 15px;
+  align-items: center;
+}
+
+.poster-pfp {
+  margin-right: 15px;
+}
+
+.poster-pfp img {
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+}
+
+.caption-container {
+  display: flex;
+}
+
+.post-username {
+  padding-right: 10px;
+  color: #4f7ba1;
+}
+
+.caption {
+  text-align: left;
+}

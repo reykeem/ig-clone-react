@@ -1,0 +1,33 @@
+.likebar {
+  display: flex;
+  justify-content: space-between;
+  background: #f3f3f3;
+  /* border: #bbbcbb; */
+  border: 1px solid#bbbcbb;
+}
+
+.heart {
+  padding: 15px;
+  border-right: 1px solid#bbbcbb;
+}
+
+.more {
+  padding: 15px;
+  border-left: 1px solid#bbbcbb;
+}
+
+.heart img {
+  height: 25px;
+  filter: invert(91%) sepia(0%) saturate(529%) hue-rotate(228deg)
+    brightness(83%) contrast(91%);
+}
+
+.more img {
+  height: 25px;
+  filter: invert(91%) sepia(0%) saturate(529%) hue-rotate(228deg)
+    brightness(83%) contrast(91%);
+}
+
+.likers {
+  padding: 15px;
+}
